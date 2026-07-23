@@ -1,0 +1,131 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+    min-height: 80px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    background-color: #fff;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__open-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.logo {
+    display: block;
+    width: 64px;
+}
+
+.navbar__close {
+    display: none;
+}
+
+.navbar__close svg {
+    cursor: pointer;
+}
+
+.navbar__list {
+    display: flex;
+    gap: 24px;
+}
+
+.navbar__link {
+    padding-bottom: 24px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 5px solid transparent;
+}
+
+.navbar__link:hover {
+    border-bottom-color: var(--hover-border-color);
+}
+
+.badge {
+    line-height: 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #ff3f6c;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-bar {
+    min-width: 370px;
+    display: flex;
+}
+
+.search-bar__submit {
+    width: 40px;
+    text-align: center;
+    padding: 8px 0 2px;
+    background: #f5f5f6;
+    color: #696e79;
+    border: 1px solid #f5f5f6;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.search-bar__input {
+    font-size: 14px;
+    line-height: 24px;
+    color: #696e79;
+    padding: 8px 10px 10px;
+    border: 1px solid #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background: #f5f5f6;
+    outline: none;
+    flex-grow: 1;
+}
+
+.header__actions {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 5px solid transparent;
+}
+
+.action--profile:hover {
+    border-block-color: var(--hover-border-color);
+}
+
+.action__label {
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+    margin-top: -0.4em;
+}
+
+.action__icon {
+    color: #696e79;
+}
