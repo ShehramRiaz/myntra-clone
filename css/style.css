@@ -129,3 +129,38 @@
 .action__icon {
     color: #696e79;
 }
+
+/* Main Products */
+.section {
+    margin: 2em 1em;
+}
+
+.section__title {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.product {
+    max-width: 300px;
+    flex-basis: 200px;
+}
+
+.product__link {
+    display: block;
+}
+
+.product__image {
+    width: 100%;
+}
