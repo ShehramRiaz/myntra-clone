@@ -104,6 +104,10 @@
     .action {
         padding: 0;
     }
+
+    .section__title {
+        font-size: 1.3em;
+    }
 }
 
 @media screen and (width <=360px) {
